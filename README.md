@@ -25,12 +25,24 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+React JS is a UI library that helps with building large scale applications that handle a lot of data and have a lot of users interacting with it. 
 
+React uses components that handle specific parts of the dom. The components are then passed to the virtual DOM which makes changes to the actual DOM without putting a lot of load on the browser. 
+
+In the current project, I've created a component StarWars that pulls data from a server and displays the details we want to be displayed. This component is reusable. React uses functions such as Render to render the elements we want on the screen and fetch to fetch the data from the server
 - [ ] What does it mean to _think_ in react?
+To think in React means:
+1. To break up a UI into different components. The components should be reusable so as to follow DRY principles
+2. To make the UI dynamic/interactive the developer should use state and props to pass data around and store it,
+3. Designing the component hierarchy and determining which component will store the state
 
 - [ ] Describe state.
+State helps set up a data object and it is done with the help of a constructor method in which we assign the data to the object we want
+
+
 
 - [ ] Describe props.
+props help convert user defined components/elements into JSX objects which can then be rendered by the DOM. Props are ready only and immutable, kind of like class lists
 
 ## Project Set Up
 

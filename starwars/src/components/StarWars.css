@@ -1,0 +1,22 @@
+
+.starwars-card{
+    max-height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin: 1rem;
+    background: white;
+    text-align: center;
+}
+
+.char-info h2{
+    font-size: 2rem;
+    padding-bottom: 3%;
+}
+.char-info p{
+    font-size: 1rem;
+}
+strong {
+ font-style: oblique;
+}
